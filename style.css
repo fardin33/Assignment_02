@@ -350,8 +350,13 @@ body{
 
 /* Featured Episodes Section */
 
-#main-features h1{
-     margin: 0;
+.featured-content h1{
+     text-align: center;
+     grid-column: span 3;
+     color: #FFFFFF;
+     font-size: 3rem;
+     font-weight: bold;
+     margin: 0 auto;
 }
 
 .main-features{ 
@@ -450,6 +455,7 @@ body{
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: bold;
+    margin-top: 120px;
     margin-bottom: 40px;
 }
 
@@ -464,6 +470,7 @@ body{
      border: none;
      border-radius: 40px;
      background-color: #250D44;
+     
      margin: 0 auto;
 }
 .content {
@@ -487,7 +494,7 @@ body{
      font-weight: 400;
      line-height: 24px;
      opacity: 60%;
-     margin-bottom: 10px;
+     margin-bottom: 0;
 }
 
 .host-links{
