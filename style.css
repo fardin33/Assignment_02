@@ -151,6 +151,7 @@ body{
      font-weight:300;
      color: white;
      margin: 8px 0;
+     opacity: 80%;
 }
 
 
@@ -217,11 +218,12 @@ body{
 .podcast-content p{
      color: #FFFFFF;
      font-size: 1rem;
-     font-weight: 200;
+     font-weight: 400;
      line-height: 27px;
      text-align: center;
      width: 1200px;
      margin: 0;
+     opacity: 80%;
 }
 
 .description{
@@ -232,12 +234,12 @@ body{
 
 /* divider : 2 */
 .divider2{
-     margin:80px auto;
+     margin: 80px auto;
      border: 1px solid rgb(41, 33, 55);
      height: 0;
      width: 1200px;
      color:white;
-
+     
 }
 
 /* Podcast : Bottom Counting Section */
@@ -269,4 +271,168 @@ body{
      font-size: 1rem;
      font-weight:300;
      margin:16px 0 0;
+     opacity: 80%;
 }
+
+/* Why Choose TechWave */
+
+#choose-techWave{
+     padding: 40px 400px;
+     background-color: #230E3D;
+}
+
+#choose-techWave h1{
+     text-align: center;
+     font-size: 3rem;
+     font-weight: bold;
+     color: #FFFFFF;
+     margin-bottom: 80px;
+}
+.main-container{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 30px 40px;
+     margin: 0 auto;
+     max-height: 1600px;
+     max-width: 1631px;
+     margin-bottom: 120px;
+}
+
+.card{
+     background-color: rgba(53, 17, 101, 0.4);
+     border-radius: 40px;
+     padding: 20px 40px;
+     /* box-shadow: 0px 0px 10px 0px rgb(212, 204, 218); */
+
+}
+
+.card-col{
+     grid-row: span 2;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+}
+
+.card-row{
+     grid-column: span 2;
+}
+
+.card-double-row{
+     grid-column: span 2;
+}
+
+.card-col2{
+     grid-row: span 1;
+}
+
+.card h3 {
+     color: #FFFFFF;
+     font-size: 1.5rem;
+     font-weight: 700;
+}
+.card p{
+     color: #FFFFFF;
+     opacity: 0.6;
+     font-size: 1rem;
+     font-weight: 300;
+     line-height: 24px;
+}
+.card img{
+     max-width: 48px;
+     height: auto;
+}
+
+
+#Main2{
+     background-color: #1A0B2E;
+}
+
+
+/* Featured Episodes Section */
+
+#featured-episodes{ 
+     width: 100%;
+     margin: 0 auto;  
+} 
+
+.featured-content {
+     width: 1200px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+     padding: 100px 200px;
+     margin: 0 auto;
+
+}
+
+.featured-card{
+     background-color: #250D44;
+     display: flex;
+     flex-direction: column;
+     width: 380px;
+     height: 440px;
+     margin-top: 40px;
+     border-radius: 30px;
+}
+
+.video-section{
+     width: 380px;
+     height: 214px;
+}
+
+.video-section iframe{
+     width: 100%;
+     height: 100%;
+     border: none;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+}
+
+.card-content {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     width: 322px;
+     padding: 20px 20px;
+}
+.card-content h3 {
+     color: #FFFFFF;
+     font-size: 1.3rem;
+     font-weight: bold;
+     width: 322px;
+     height: 58px;
+     margin: 0;
+     letter-spacing: 1px;
+}
+
+.card-content p {
+     color: #FFFFFF;
+     font-size: 1rem;
+     font-weight: 400;
+     opacity: 60%;
+     width: 322px;
+     height: 72px;
+     margin: 0;
+}
+
+.time {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-items: center;
+     margin-top: auto;
+}
+
+.time img{
+     width: 20px;
+     height: 20px;
+}
+
+.time h4 {
+     color: #00FF88;
+     margin: 1;
+}
+
+
+
+
