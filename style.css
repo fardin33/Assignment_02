@@ -590,6 +590,8 @@ max-width : 576 */
           height: 1.25rem;
           width: 8.5rem;
      }
+
+     /* Banner Section */
      .menu-icon {
           display: block;
      }
@@ -615,6 +617,7 @@ max-width : 576 */
      }
      .title-description h3 {
           font-size: 2.5rem;
+          margin-top: 30px;
      
      }
      .title-description p {
@@ -657,7 +660,7 @@ max-width : 576 */
      }
      .podcast-content h3 {
           font-size: 1.8rem;
-          margin-bottom: 12px;
+          margin-bottom: 10px;
      }
      .podcast-content p {
           width: 100%;
@@ -672,7 +675,7 @@ max-width : 576 */
      .divider2 {
           width: 90%;
           max-width: 320px;
-          margin: 20px auto;
+          margin: 10px auto;
           border-width: 1px;
      }
      .description {
@@ -685,7 +688,7 @@ max-width : 576 */
      .bottom-items {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          gap: 24px;
+          gap: 20px;
           text-align: center;
           justify-items: center;
      }
@@ -881,3 +884,6 @@ max-width : 576 */
 }
 
 /* Mobile Responsive End Here */
+
+
+/* Responsive : Tablet & Laptop - Max-Width:   */
