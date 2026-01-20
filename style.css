@@ -528,7 +528,7 @@ body {
 
 /* Footer Section */
 footer {
-     background-image: url("/Assets/footer-bg.png");
+     background-image: url("./Assets/footer-bg.png");
      height: 412px;
      width: 100%;
      background-size: cover;
